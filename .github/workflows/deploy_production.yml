@@ -30,8 +30,12 @@ jobs:
         path: build/
     - uses: actions/cache@v3
       with:
-        path: /tmp/composer-cache
-        key: ${{ runner.os }}-composer
+        path: |
+          /tmp/composer-cache
+          ~/.cache/composer
+        key: ${{ runner.os }}-composer-${{ hashFiles('composer.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-composer-
     - run: hypernode-deploy deploy production -vvv  # Deploy production stage defined in deploy.php
       env:
         SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
