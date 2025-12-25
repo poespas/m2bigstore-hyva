@@ -462,6 +462,51 @@ return [
             'area' => 'frontend',
             'type' => '0',
             'code' => 'Magento/luma'
+        ],
+        'frontend/Poespas/hyva-child-one' => [
+            'parent_id' => 'Hyva/default',
+            'theme_path' => 'Poespas/hyva-child-one',
+            'theme_title' => 'Hyvä Child One - Blue Theme',
+            'is_featured' => '0',
+            'area' => 'frontend',
+            'type' => '0',
+            'code' => 'Poespas/hyva-child-one'
+        ],
+        'frontend/Poespas/hyva-child-two' => [
+            'parent_id' => 'Hyva/default',
+            'theme_path' => 'Poespas/hyva-child-two',
+            'theme_title' => 'Hyvä Child Two - Green Theme',
+            'is_featured' => '0',
+            'area' => 'frontend',
+            'type' => '0',
+            'code' => 'Poespas/hyva-child-two'
+        ],
+        'frontend/Poespas/hyva-child-three' => [
+            'parent_id' => 'Hyva/default',
+            'theme_path' => 'Poespas/hyva-child-three',
+            'theme_title' => 'Hyvä Child Three - Red Theme',
+            'is_featured' => '0',
+            'area' => 'frontend',
+            'type' => '0',
+            'code' => 'Poespas/hyva-child-three'
+        ],
+        'frontend/Poespas/hyva-child-four' => [
+            'parent_id' => 'Hyva/default',
+            'theme_path' => 'Poespas/hyva-child-four',
+            'theme_title' => 'Hyvä Child Four - Purple Theme',
+            'is_featured' => '0',
+            'area' => 'frontend',
+            'type' => '0',
+            'code' => 'Poespas/hyva-child-four'
+        ],
+        'frontend/Poespas/hyva-child-five' => [
+            'parent_id' => 'Hyva/default',
+            'theme_path' => 'Poespas/hyva-child-five',
+            'theme_title' => 'Hyvä Child Five - Orange Theme',
+            'is_featured' => '0',
+            'area' => 'frontend',
+            'type' => '0',
+            'code' => 'Poespas/hyva-child-five'
         ]
     ]
 ];

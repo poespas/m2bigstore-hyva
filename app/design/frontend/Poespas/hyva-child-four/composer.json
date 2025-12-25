@@ -1,0 +1,17 @@
+{
+    "name": "poespas/hyva-child-four",
+    "description": "Hyvä Child Theme Four - Purple Theme",
+    "require": {
+        "hyva-themes/magento2-default-theme": "^1.0"
+    },
+    "type": "magento2-theme",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ]
+    }
+}
