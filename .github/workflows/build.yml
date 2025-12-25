@@ -1,0 +1,26 @@
+name: Build application
+
+on:
+  workflow_call:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    # See https://quay.io/repository/hypernode/deploy?tab=tags for all possible tags.
+    container: quay.io/hypernode/deploy:latest-php8.4-node24
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/cache@v3
+      with:
+        path: /tmp/composer-cache
+        key: ${{ runner.os }}-composer
+    - run: mkdir -p $HOME/.ssh
+    - run: hypernode-deploy build -vvv
+      env:
+        SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+    - name: archive production artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: deployment-build
+        path: build/build.tgz
+        retention-days: 7

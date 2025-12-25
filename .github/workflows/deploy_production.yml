@@ -1,0 +1,38 @@
+name: Deploy application to production
+
+on:
+  push:
+    branches:
+      - 'master'
+      - 'main'
+
+jobs:
+  build:
+    uses: ./.github/workflows/build.yml
+    secrets: inherit
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    # Concurrency takes any arbitrary value, but this prevents multiple deployments happening at the same time.
+    # We set the concurrency to production for this deployment workflow.
+    concurrency: production
+    environment:
+      name: production
+      url: https://www.example.com
+    container: quay.io/hypernode/deploy:latest-php8.4-node24
+    steps:
+    - uses: actions/checkout@v3
+    - name: download build artifact
+      uses: actions/download-artifact@v3
+      with:
+        name: deployment-build
+        path: build/
+    - uses: actions/cache@v3
+      with:
+        path: /tmp/composer-cache
+        key: ${{ runner.os }}-composer
+    - run: mkdir -p $HOME/.ssh
+    - run: hypernode-deploy deploy production -vvv  # Deploy production stage defined in deploy.php
+      env:
+        SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}

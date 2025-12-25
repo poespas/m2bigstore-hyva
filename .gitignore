@@ -1,0 +1,15 @@
+dev
+lib
+phpserver
+pub
+setup
+generated
+var
+bin
+vendor
+.env
+app/etc
+!app/etc/config.php
+!app/etc/registration_globlist.php
+app/autoload.php
+app/bootstrap.php
