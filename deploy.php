@@ -10,35 +10,35 @@ $productionStage = $configuration->addStage('production', 'magento2');
 $productionStage->addServer('hntestjvisser1.hypernode.io');
 
 task('build:hyva:theme1' , function () {
-    within("{{release_or_current_path}}/app/design/frontend/Poespas/HyvaChildOne/web/tailwind", function () {
+    within("{{release_or_current_path}}/app/design/frontend/Poespas/hyva-child-one/web/tailwind", function () {
         run('npm ci');
         run('npm run build');
     });
 });
 
 task('build:hyva:theme2' , function () {
-    within("{{release_or_current_path}}/app/design/frontend/Poespas/HyvaChildTwo/web/tailwind", function () {
+    within("{{release_or_current_path}}/app/design/frontend/Poespas/hyva-child-two/web/tailwind", function () {
         run('npm ci');
         run('npm run build');
     });
 });
 
 task('build:hyva:theme3' , function () {
-    within("{{release_or_current_path}}/app/design/frontend/Poespas/HyvaChildThree/web/tailwind", function () {
+    within("{{release_or_current_path}}/app/design/frontend/Poespas/hyva-child-three/web/tailwind", function () {
         run('npm ci');
         run('npm run build');
     });
 });
 
 task('build:hyva:theme4' , function () {
-    within("{{release_or_current_path}}/app/design/frontend/Poespas/HyvaChildFour/web/tailwind", function () {
+    within("{{release_or_current_path}}/app/design/frontend/Poespas/hyva-child-four/web/tailwind", function () {
         run('npm ci');
         run('npm run build');
     });
 });
 
 task('build:hyva:theme5' , function () {
-    within("{{release_or_current_path}}/app/design/frontend/Poespas/HyvaChildFive/web/tailwind", function () {
+    within("{{release_or_current_path}}/app/design/frontend/Poespas/hyva-child-five/web/tailwind", function () {
         run('npm ci');
         run('npm run build');
     });

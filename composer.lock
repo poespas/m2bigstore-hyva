@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "84b4f6b061f92419c844d64925294409",
+    "content-hash": "9bb1d4b6b9d265b6bfd85eca500c78ea",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -726,6 +726,741 @@
                 "source": "https://github.com/colinmollenhour/php-redis-session-abstract/tree/v2.1.2"
             },
             "time": "2025-05-05T07:31:11+00:00"
+        },
+        {
+            "name": "community-engineering/language-bg_bg",
+            "version": "0.0.53",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/magento-l10n/language-bg_BG.git",
+                "reference": "91a10e613e35aa204817285d0f326de47dd97e8d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/magento-l10n/language-bg_BG/zipball/91a10e613e35aa204817285d0f326de47dd97e8d",
+                "reference": "91a10e613e35aa204817285d0f326de47dd97e8d",
+                "shasum": ""
+            },
+            "require": {
+                "magento/framework": "*"
+            },
+            "type": "magento2-language",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "description": "bg_BG language package.",
+            "support": {
+                "issues": "https://github.com/magento-l10n/language-bg_BG/issues",
+                "source": "https://github.com/magento-l10n/language-bg_BG/tree/v0.0.53"
+            },
+            "time": "2025-09-29T15:51:04+00:00"
+        },
+        {
+            "name": "community-engineering/language-cs_cz",
+            "version": "0.0.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/magento-l10n/language-cs_CZ.git",
+                "reference": "4c732876d30ac75232912b411387c9e52661ad2f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/magento-l10n/language-cs_CZ/zipball/4c732876d30ac75232912b411387c9e52661ad2f",
+                "reference": "4c732876d30ac75232912b411387c9e52661ad2f",
+                "shasum": ""
+            },
+            "require": {
+                "magento/framework": "*"
+            },
+            "type": "magento2-language",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "description": "cs_CZ language package.",
+            "support": {
+                "issues": "https://github.com/magento-l10n/language-cs_CZ/issues",
+                "source": "https://github.com/magento-l10n/language-cs_CZ/tree/v0.0.9"
+            },
+            "time": "2023-06-07T19:38:01+00:00"
+        },
+        {
+            "name": "community-engineering/language-da_dk",
+            "version": "0.0.59",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/magento-l10n/language-da_DK.git",
+                "reference": "a095b621bde35322d219d8c9988f30de82bbed24"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/magento-l10n/language-da_DK/zipball/a095b621bde35322d219d8c9988f30de82bbed24",
+                "reference": "a095b621bde35322d219d8c9988f30de82bbed24",
+                "shasum": ""
+            },
+            "require": {
+                "magento/framework": "*"
+            },
+            "type": "magento2-language",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "description": "da_DK language package.",
+            "support": {
+                "issues": "https://github.com/magento-l10n/language-da_DK/issues",
+                "source": "https://github.com/magento-l10n/language-da_DK/tree/v0.0.59"
+            },
+            "time": "2025-03-19T12:21:19+00:00"
+        },
+        {
+            "name": "community-engineering/language-de_de",
+            "version": "0.0.67",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/magento-l10n/language-de_DE.git",
+                "reference": "8c52c52c62ad7551e7032f2b1aad4c73bc2cdfea"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/magento-l10n/language-de_DE/zipball/8c52c52c62ad7551e7032f2b1aad4c73bc2cdfea",
+                "reference": "8c52c52c62ad7551e7032f2b1aad4c73bc2cdfea",
+                "shasum": ""
+            },
+            "require": {
+                "magento/framework": "*"
+            },
+            "type": "magento2-language",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "description": "de_DE language package.",
+            "support": {
+                "issues": "https://github.com/magento-l10n/language-de_DE/issues",
+                "source": "https://github.com/magento-l10n/language-de_DE/tree/v0.0.67"
+            },
+            "time": "2025-11-16T03:19:00+00:00"
+        },
+        {
+            "name": "community-engineering/language-el_gr",
+            "version": "0.0.29",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/magento-l10n/language-el_GR.git",
+                "reference": "f40c433a9c4bdbff1ce6064f07ecd941e89bf3d8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/magento-l10n/language-el_GR/zipball/f40c433a9c4bdbff1ce6064f07ecd941e89bf3d8",
+                "reference": "f40c433a9c4bdbff1ce6064f07ecd941e89bf3d8",
+                "shasum": ""
+            },
+            "require": {
+                "magento/framework": "*"
+            },
+            "type": "magento2-language",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "description": "el_GR language package.",
+            "support": {
+                "issues": "https://github.com/magento-l10n/language-el_GR/issues",
+                "source": "https://github.com/magento-l10n/language-el_GR/tree/v0.0.29"
+            },
+            "time": "2023-06-07T19:38:05+00:00"
+        },
+        {
+            "name": "community-engineering/language-en_gb",
+            "version": "0.0.12",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/magento-l10n/language-en_GB.git",
+                "reference": "fc995f6d62a8f34d9aa7854d94d6acd3ce90dfbf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/magento-l10n/language-en_GB/zipball/fc995f6d62a8f34d9aa7854d94d6acd3ce90dfbf",
+                "reference": "fc995f6d62a8f34d9aa7854d94d6acd3ce90dfbf",
+                "shasum": ""
+            },
+            "require": {
+                "magento/framework": "*"
+            },
+            "type": "magento2-language",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "description": "en_GB language package.",
+            "support": {
+                "issues": "https://github.com/magento-l10n/language-en_GB/issues",
+                "source": "https://github.com/magento-l10n/language-en_GB/tree/v0.0.12"
+            },
+            "time": "2023-06-07T19:38:06+00:00"
+        },
+        {
+            "name": "community-engineering/language-en_us",
+            "version": "0.0.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/magento-l10n/language-en_US.git",
+                "reference": "0873cca2bf7f706cc547f2805615a9272dffd000"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/magento-l10n/language-en_US/zipball/0873cca2bf7f706cc547f2805615a9272dffd000",
+                "reference": "0873cca2bf7f706cc547f2805615a9272dffd000",
+                "shasum": ""
+            },
+            "require": {
+                "magento/framework": "*"
+            },
+            "type": "magento2-language",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "description": "en_US language package.",
+            "support": {
+                "issues": "https://github.com/magento-l10n/language-en_US/issues",
+                "source": "https://github.com/magento-l10n/language-en_US/tree/v0.0.7"
+            },
+            "time": "2023-06-07T19:38:06+00:00"
+        },
+        {
+            "name": "community-engineering/language-es_es",
+            "version": "0.0.149",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/magento-l10n/language-es_ES.git",
+                "reference": "21fa8c6403bbdc8a63a718e12218746326dcbb19"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/magento-l10n/language-es_ES/zipball/21fa8c6403bbdc8a63a718e12218746326dcbb19",
+                "reference": "21fa8c6403bbdc8a63a718e12218746326dcbb19",
+                "shasum": ""
+            },
+            "require": {
+                "magento/framework": "*"
+            },
+            "type": "magento2-language",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "description": "es_ES language package.",
+            "support": {
+                "issues": "https://github.com/magento-l10n/language-es_ES/issues",
+                "source": "https://github.com/magento-l10n/language-es_ES/tree/v0.0.149"
+            },
+            "time": "2025-11-16T03:19:01+00:00"
+        },
+        {
+            "name": "community-engineering/language-fi_fi",
+            "version": "0.0.37",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/magento-l10n/language-fi_FI.git",
+                "reference": "c535582d299dacb6d539f0fe742a5419b6d498d3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/magento-l10n/language-fi_FI/zipball/c535582d299dacb6d539f0fe742a5419b6d498d3",
+                "reference": "c535582d299dacb6d539f0fe742a5419b6d498d3",
+                "shasum": ""
+            },
+            "require": {
+                "magento/framework": "*"
+            },
+            "type": "magento2-language",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "description": "fi_FI language package.",
+            "support": {
+                "issues": "https://github.com/magento-l10n/language-fi_FI/issues",
+                "source": "https://github.com/magento-l10n/language-fi_FI/tree/v0.0.37"
+            },
+            "time": "2024-03-06T09:53:22+00:00"
+        },
+        {
+            "name": "community-engineering/language-fr_fr",
+            "version": "0.0.60",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/magento-l10n/language-fr_FR.git",
+                "reference": "96d7cc76857e457fc8d30d067947944012cba903"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/magento-l10n/language-fr_FR/zipball/96d7cc76857e457fc8d30d067947944012cba903",
+                "reference": "96d7cc76857e457fc8d30d067947944012cba903",
+                "shasum": ""
+            },
+            "require": {
+                "magento/framework": "*"
+            },
+            "type": "magento2-language",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "description": "fr_FR language package.",
+            "support": {
+                "issues": "https://github.com/magento-l10n/language-fr_FR/issues",
+                "source": "https://github.com/magento-l10n/language-fr_FR/tree/v0.0.60"
+            },
+            "time": "2025-12-18T21:03:37+00:00"
+        },
+        {
+            "name": "community-engineering/language-hu_hu",
+            "version": "0.0.21",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/magento-l10n/language-hu_HU.git",
+                "reference": "b2a55537a24f700c5c39d0054fb92bcb9fe3ea24"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/magento-l10n/language-hu_HU/zipball/b2a55537a24f700c5c39d0054fb92bcb9fe3ea24",
+                "reference": "b2a55537a24f700c5c39d0054fb92bcb9fe3ea24",
+                "shasum": ""
+            },
+            "require": {
+                "magento/framework": "*"
+            },
+            "type": "magento2-language",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "description": "hu_HU language package.",
+            "support": {
+                "issues": "https://github.com/magento-l10n/language-hu_HU/issues",
+                "source": "https://github.com/magento-l10n/language-hu_HU/tree/v0.0.21"
+            },
+            "time": "2023-09-25T13:30:09+00:00"
+        },
+        {
+            "name": "community-engineering/language-it_it",
+            "version": "0.0.26",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/magento-l10n/language-it_IT.git",
+                "reference": "de1ec42563e5832ed9b1a09b0cca8d8b1caea644"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/magento-l10n/language-it_IT/zipball/de1ec42563e5832ed9b1a09b0cca8d8b1caea644",
+                "reference": "de1ec42563e5832ed9b1a09b0cca8d8b1caea644",
+                "shasum": ""
+            },
+            "require": {
+                "magento/framework": "*"
+            },
+            "type": "magento2-language",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "description": "it_IT language package.",
+            "support": {
+                "issues": "https://github.com/magento-l10n/language-it_IT/issues",
+                "source": "https://github.com/magento-l10n/language-it_IT/tree/v0.0.26"
+            },
+            "time": "2024-06-12T09:41:57+00:00"
+        },
+        {
+            "name": "community-engineering/language-nl_nl",
+            "version": "0.0.67",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/magento-l10n/language-nl_NL.git",
+                "reference": "552dc8615ce96b980f500cc67daa3879b888c8eb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/magento-l10n/language-nl_NL/zipball/552dc8615ce96b980f500cc67daa3879b888c8eb",
+                "reference": "552dc8615ce96b980f500cc67daa3879b888c8eb",
+                "shasum": ""
+            },
+            "require": {
+                "magento/framework": "*"
+            },
+            "type": "magento2-language",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "description": "nl_NL language package.",
+            "support": {
+                "issues": "https://github.com/magento-l10n/language-nl_NL/issues",
+                "source": "https://github.com/magento-l10n/language-nl_NL/tree/v0.0.67"
+            },
+            "time": "2025-05-05T22:00:01+00:00"
+        },
+        {
+            "name": "community-engineering/language-no_no",
+            "version": "0.0.18",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/magento-l10n/language-no_NO.git",
+                "reference": "9921676b6912f74474299043568fcde54ce8d6b1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/magento-l10n/language-no_NO/zipball/9921676b6912f74474299043568fcde54ce8d6b1",
+                "reference": "9921676b6912f74474299043568fcde54ce8d6b1",
+                "shasum": ""
+            },
+            "require": {
+                "magento/framework": "*"
+            },
+            "type": "magento2-language",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "description": "no_NO language package.",
+            "support": {
+                "issues": "https://github.com/magento-l10n/language-no_NO/issues",
+                "source": "https://github.com/magento-l10n/language-no_NO/tree/v0.0.18"
+            },
+            "time": "2023-06-07T19:38:23+00:00"
+        },
+        {
+            "name": "community-engineering/language-pl_pl",
+            "version": "0.0.42",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/magento-l10n/language-pl_PL.git",
+                "reference": "39832ca8377ecf7dba3918a7fba578a8c98c00e1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/magento-l10n/language-pl_PL/zipball/39832ca8377ecf7dba3918a7fba578a8c98c00e1",
+                "reference": "39832ca8377ecf7dba3918a7fba578a8c98c00e1",
+                "shasum": ""
+            },
+            "require": {
+                "magento/framework": "*"
+            },
+            "type": "magento2-language",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "description": "pl_PL language package.",
+            "support": {
+                "issues": "https://github.com/magento-l10n/language-pl_PL/issues",
+                "source": "https://github.com/magento-l10n/language-pl_PL/tree/v0.0.42"
+            },
+            "time": "2025-09-23T00:20:19+00:00"
+        },
+        {
+            "name": "community-engineering/language-pt_br",
+            "version": "0.0.79",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/magento-l10n/language-pt_BR.git",
+                "reference": "8a661d23071eebba7916ea4ece86434f34bc8f4e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/magento-l10n/language-pt_BR/zipball/8a661d23071eebba7916ea4ece86434f34bc8f4e",
+                "reference": "8a661d23071eebba7916ea4ece86434f34bc8f4e",
+                "shasum": ""
+            },
+            "require": {
+                "magento/framework": "*"
+            },
+            "type": "magento2-language",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "description": "pt_BR language package.",
+            "support": {
+                "issues": "https://github.com/magento-l10n/language-pt_BR/issues",
+                "source": "https://github.com/magento-l10n/language-pt_BR/tree/v0.0.79"
+            },
+            "time": "2025-01-10T15:00:48+00:00"
+        },
+        {
+            "name": "community-engineering/language-ro_ro",
+            "version": "0.0.35",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/magento-l10n/language-ro_RO.git",
+                "reference": "9976697fe6b09dbaf25c62a0f7e06f7252c4f44d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/magento-l10n/language-ro_RO/zipball/9976697fe6b09dbaf25c62a0f7e06f7252c4f44d",
+                "reference": "9976697fe6b09dbaf25c62a0f7e06f7252c4f44d",
+                "shasum": ""
+            },
+            "require": {
+                "magento/framework": "*"
+            },
+            "type": "magento2-language",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "description": "ro_RO language package.",
+            "support": {
+                "issues": "https://github.com/magento-l10n/language-ro_RO/issues",
+                "source": "https://github.com/magento-l10n/language-ro_RO/tree/v0.0.35"
+            },
+            "time": "2024-12-17T00:59:48+00:00"
+        },
+        {
+            "name": "community-engineering/language-ru_ru",
+            "version": "0.0.66",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/magento-l10n/language-ru_RU.git",
+                "reference": "86a559c7973bbdcfceb73bff48972175ec230859"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/magento-l10n/language-ru_RU/zipball/86a559c7973bbdcfceb73bff48972175ec230859",
+                "reference": "86a559c7973bbdcfceb73bff48972175ec230859",
+                "shasum": ""
+            },
+            "require": {
+                "magento/framework": "*"
+            },
+            "type": "magento2-language",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "description": "ru_RU language package.",
+            "support": {
+                "issues": "https://github.com/magento-l10n/language-ru_RU/issues",
+                "source": "https://github.com/magento-l10n/language-ru_RU/tree/v0.0.66"
+            },
+            "time": "2024-08-22T14:56:27+00:00"
+        },
+        {
+            "name": "community-engineering/language-sk_sk",
+            "version": "0.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/magento-l10n/language-sk_SK.git",
+                "reference": "f1cf1e709dd1039fa66af21773a7195d4e226b7b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/magento-l10n/language-sk_SK/zipball/f1cf1e709dd1039fa66af21773a7195d4e226b7b",
+                "reference": "f1cf1e709dd1039fa66af21773a7195d4e226b7b",
+                "shasum": ""
+            },
+            "require": {
+                "magento/framework": "*"
+            },
+            "type": "magento2-language",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "description": "sk_SK language package.",
+            "support": {
+                "issues": "https://github.com/magento-l10n/language-sk_SK/issues",
+                "source": "https://github.com/magento-l10n/language-sk_SK/tree/v0.0.6"
+            },
+            "time": "2022-10-28T22:46:02+00:00"
+        },
+        {
+            "name": "community-engineering/language-sv_se",
+            "version": "0.0.27",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/magento-l10n/language-sv_SE.git",
+                "reference": "596dc1e9101fd61069ec8880065d266dd4d7ef14"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/magento-l10n/language-sv_SE/zipball/596dc1e9101fd61069ec8880065d266dd4d7ef14",
+                "reference": "596dc1e9101fd61069ec8880065d266dd4d7ef14",
+                "shasum": ""
+            },
+            "require": {
+                "magento/framework": "*"
+            },
+            "type": "magento2-language",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "description": "sv_SE language package.",
+            "support": {
+                "issues": "https://github.com/magento-l10n/language-sv_SE/issues",
+                "source": "https://github.com/magento-l10n/language-sv_SE/tree/v0.0.27"
+            },
+            "time": "2024-10-18T10:33:26+00:00"
+        },
+        {
+            "name": "community-engineering/language-tr_tr",
+            "version": "0.0.28",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/magento-l10n/language-tr_TR.git",
+                "reference": "7398944ef883447a59f72fa1a0488b5220438fa7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/magento-l10n/language-tr_TR/zipball/7398944ef883447a59f72fa1a0488b5220438fa7",
+                "reference": "7398944ef883447a59f72fa1a0488b5220438fa7",
+                "shasum": ""
+            },
+            "require": {
+                "magento/framework": "*"
+            },
+            "type": "magento2-language",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "description": "tr_TR language package.",
+            "support": {
+                "issues": "https://github.com/magento-l10n/language-tr_TR/issues",
+                "source": "https://github.com/magento-l10n/language-tr_TR/tree/v0.0.28"
+            },
+            "time": "2023-10-05T00:21:32+00:00"
         },
         {
             "name": "composer/ca-bundle",
