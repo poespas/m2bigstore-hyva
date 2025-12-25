@@ -35,3 +35,4 @@ jobs:
     - run: hypernode-deploy deploy production -vvv  # Deploy production stage defined in deploy.php
       env:
         SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+        DEPLOY_COMPOSER_AUTH: ${{ secrets.DEPLOY_COMPOSER_AUTH }}
