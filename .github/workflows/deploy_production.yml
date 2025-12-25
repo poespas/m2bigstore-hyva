@@ -20,7 +20,7 @@ jobs:
     environment:
       name: production
       url: https://www.example.com
-    container: quay.io/hypernode/deploy:latest-php8.4-node24
+    container: quay.io/hypernode/deploy:latest-php8.4-node22
     steps:
     - uses: actions/checkout@v3
     - name: download build artifact
