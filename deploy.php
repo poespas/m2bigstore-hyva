@@ -2,7 +2,7 @@
 
 namespace Hypernode\DeployConfiguration;
 
-use function Deployer\{task, within, run};
+use function Deployer\{before, task, within, run, get, invoke};
 
 $configuration = new ApplicationTemplate\Magento2([]);
 $configuration->setMagentoThemes([
@@ -17,45 +17,45 @@ $configuration->setVariable("static_deploy_options", "--no-javascript --no-css -
 $productionStage = $configuration->addStage('production', 'magento2');
 $productionStage->addServer('hntestjvisser1.hypernode.io');
 
-task('build:hyva:theme1' , function () {
+task('build:node' , function () {
     within("{{release_or_current_path}}/app/design/frontend/Poespas/hyva-child-one/web/tailwind", function () {
         run('npm ci');
         run('npm run build');
     });
-});
-
-task('build:hyva:theme2' , function () {
     within("{{release_or_current_path}}/app/design/frontend/Poespas/hyva-child-two/web/tailwind", function () {
         run('npm ci');
         run('npm run build');
     });
-});
-
-task('build:hyva:theme3' , function () {
     within("{{release_or_current_path}}/app/design/frontend/Poespas/hyva-child-three/web/tailwind", function () {
         run('npm ci');
         run('npm run build');
     });
-});
-
-task('build:hyva:theme4' , function () {
     within("{{release_or_current_path}}/app/design/frontend/Poespas/hyva-child-four/web/tailwind", function () {
         run('npm ci');
         run('npm run build');
     });
-});
-
-task('build:hyva:theme5' , function () {
     within("{{release_or_current_path}}/app/design/frontend/Poespas/hyva-child-five/web/tailwind", function () {
         run('npm ci');
         run('npm run build');
     });
 });
 
-$configuration->addBuildTask('build:hyva:theme1');
-$configuration->addBuildTask('build:hyva:theme2');
-$configuration->addBuildTask('build:hyva:theme3');
-$configuration->addBuildTask('build:hyva:theme4');
-$configuration->addBuildTask('build:hyva:theme5');
+before('magento:deploy:assets', 'build:node');
+
+task('magento:deploy:assets', function () {
+    invoke('magento:deploy:assets:adminhtml');
+    within("{{release_or_current_path}}", function () {
+        run('wget https://github.com/elgentos/magento2-static-deploy/releases/download/0.0.2/magento2-static-deploy-linux-amd64 -O /tmp/magento2-static-deploy');
+        run('chmod +x /tmp/magento2-static-deploy');
+    });
+
+    $themes = get('magento_themes');
+    foreach ($themes as $theme => $locales) {
+        within("{{release_or_current_path}}", function () use ($theme, $locales) {
+            run('echo "Deploying static content for theme ' . $theme . ' and locales: ' . $locales . '"');
+            run('/tmp/magento2-static-deploy -root . -themes ' . $theme . ' -locales ' . join(',', explode(' ', $locales)) . ' -areas frontend -v');
+        });
+    }
+});
 
 return $configuration;
