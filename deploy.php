@@ -4,7 +4,15 @@ namespace Hypernode\DeployConfiguration;
 
 use function Deployer\{task, within, run};
 
-$configuration = new ApplicationTemplate\Magento2(['en_US']);
+$configuration = new ApplicationTemplate\Magento2([]);
+$configuration->setMagentoThemes([
+  'Poespas/hyva-child-one' => 'da_DK de_DE en_GB en_US es_ES fi_FI fr_FR it_IT nb_NO nl_NL pl_PL pt_BR ru_RU sv_SE tr_TR',
+  'Poespas/hyva-child-two' => 'da_DK de_DE en_GB en_US es_ES fi_FI fr_FR it_IT nb_NO nl_NL pl_PL pt_BR ru_RU sv_SE tr_TR',
+  'Poespas/hyva-child-three' => 'da_DK de_DE en_GB en_US es_ES fi_FI fr_FR it_IT nb_NO nl_NL pl_PL pt_BR ru_RU sv_SE tr_TR',
+  'Poespas/hyva-child-four' => 'da_DK de_DE en_GB en_US es_ES fi_FI fr_FR it_IT nb_NO nl_NL pl_PL pt_BR ru_RU sv_SE tr_TR',
+  'Poespas/hyva-child-five' => 'da_DK de_DE en_GB en_US es_ES fi_FI fr_FR it_IT nb_NO nl_NL pl_PL pt_BR ru_RU sv_SE tr_TR'
+]);
+$configuration->setVariable("static_deploy_options", "--no-javascript-minify --no-css-minify --no-parent");
 
 $productionStage = $configuration->addStage('production', 'magento2');
 $productionStage->addServer('hntestjvisser1.hypernode.io');
