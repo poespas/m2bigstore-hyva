@@ -12,7 +12,7 @@ $configuration->setMagentoThemes([
   'Poespas/hyva-child-four' => 'da_DK de_DE en_GB en_US es_ES fi_FI fr_FR it_IT nb_NO nl_NL pl_PL pt_BR ru_RU sv_SE tr_TR',
   'Poespas/hyva-child-five' => 'da_DK de_DE en_GB en_US es_ES fi_FI fr_FR it_IT nb_NO nl_NL pl_PL pt_BR ru_RU sv_SE tr_TR'
 ]);
-$configuration->setVariable("static_deploy_options", "--no-javascript --no-css --no-less --no-parent");
+$configuration->setVariable("static_deploy_options", "--no-parent");
 
 $productionStage = $configuration->addStage('production', 'magento2');
 $productionStage->addServer('hntestjvisser1.hypernode.io');
