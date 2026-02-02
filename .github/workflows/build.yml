@@ -7,7 +7,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     # See https://quay.io/repository/hypernode/deploy?tab=tags for all possible tags.
-    container: quay.io/hypernode/deploy:latest-php8.4-node22
+    container: wortel538/hypernode-deploy:latest
     steps:
     - uses: actions/checkout@v3
     - uses: actions/cache@v3

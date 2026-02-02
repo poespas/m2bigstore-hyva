@@ -41,7 +41,7 @@ task('build:node' , function () {
 });
 
 before('magento:deploy:assets', 'build:node');
-
+/*
 task('magento:deploy:assets', function () {
     invoke('magento:deploy:assets:adminhtml');
     within("{{release_or_current_path}}", function () {
@@ -53,9 +53,12 @@ task('magento:deploy:assets', function () {
     foreach ($themes as $theme => $locales) {
         within("{{release_or_current_path}}", function () use ($theme, $locales) {
             run('echo "Deploying static content for theme ' . $theme . ' and locales: ' . $locales . '"');
-            run('/tmp/magento2-static-deploy -root . -themes ' . $theme . ' -locales ' . join(',', explode(' ', $locales)) . ' -areas frontend -v');
+            run('/tmp/magento2-static-deploy -root . -themes ' . $theme . ' -locales ' . join(',', explode(' ', $locales)) . ' -areas frontend -v -content-version {{ content_version }}');
         });
     }
 });
+*/
+
+$configuration->enableHighPerformanceStaticDeploy();
 
 return $configuration;
