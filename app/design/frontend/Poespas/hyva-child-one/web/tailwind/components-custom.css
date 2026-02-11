@@ -1,5 +1,5 @@
 @layer base {
   body {
-    @apply bg-orange-50;
+    @apply bg-yellow-50;
   }
 }
