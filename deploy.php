@@ -20,22 +20,27 @@ $productionStage->addServer('hntestjvisser1.hypernode.io');
 task('build:node' , function () {
     within("{{release_or_current_path}}/app/design/frontend/Poespas/hyva-child-one/web/tailwind", function () {
         run('npm ci');
+        run('npx hyva-sources');
         run('npm run build');
     });
     within("{{release_or_current_path}}/app/design/frontend/Poespas/hyva-child-two/web/tailwind", function () {
         run('npm ci');
+        run('npx hyva-sources');
         run('npm run build');
     });
     within("{{release_or_current_path}}/app/design/frontend/Poespas/hyva-child-three/web/tailwind", function () {
         run('npm ci');
+        run('npx hyva-sources');
         run('npm run build');
     });
     within("{{release_or_current_path}}/app/design/frontend/Poespas/hyva-child-four/web/tailwind", function () {
         run('npm ci');
+        run('npx hyva-sources');
         run('npm run build');
     });
     within("{{release_or_current_path}}/app/design/frontend/Poespas/hyva-child-five/web/tailwind", function () {
         run('npm ci');
+        run('npx hyva-sources');
         run('npm run build');
     });
 });
